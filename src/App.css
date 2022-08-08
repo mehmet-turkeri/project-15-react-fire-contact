@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://picsum.photos/1600/900");
+  min-height: 100vh;
+  background-size: cover;
+ 
+}
+
+@media screen and (max-width: 990px) {
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.inputcontainer{
+  border-radius: 20px;
+  border: solid white 1px;
+  width: 22rem;
+  height: 22rem;
+  
+  
+}
+
+.contact-header{
+  border-radius: 10px;
+  height: 60px;
+  padding-top: 10px;
+  width: 46rem;  
+}
+
+.table{  
+  border-radius: 20px;  
+}
+
+.edit-icon{
+  width: 40px;
+  height: 32px;
+  cursor:pointer;
+}
+
+.btn-del{
+  border-radius: 10px;
+}
+
+.button{
+  width: 19rem;
+  height: 4rem;
+  margin-top: 8px;
+}
